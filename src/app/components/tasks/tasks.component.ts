@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Subscription } from 'rxjs';
 import { Task } from '../../Task';
+import { UiService } from '../../services/ui.service';
 
 import { TaskService } from '../../services/task.service';
 
